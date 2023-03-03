@@ -1,0 +1,3 @@
+export PATH="$HOME/.tfenv/bin:$PATH"
+alias tfinit='TFENV_TERRAFORM_VERSION=$(grep required_version _provider.tf | awk "{ print \$4 }" | tr -d \") terraform init -backend-config="encryption_key=$TF_VAR_terraform_state_encryption_key"'
+alias tfa='TFENV_TERRAFORM_VERSION=$(grep required_version _provider.tf | awk "{ print \$4 }" | tr -d \") terraform apply'
