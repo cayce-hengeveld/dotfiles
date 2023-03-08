@@ -1,0 +1,219 @@
+##### VMs ####
+
+## cross-compiler ##
+
+Host cross-compiler-1 cc1
+  Hostname 192.168.45.101
+  User ubuntu
+
+Host cross-compiler-2 cc2
+  Hostname 192.168.45.102
+  User ubuntu
+
+Host cross-compiler-3 cc3
+  Hostname 192.168.45.103
+  User ubuntu
+
+Host cross-compiler-4 cc4
+  Hostname 192.168.45.104
+  User ubuntu
+
+Host cross-compiler-5 cc5
+  Hostname 192.168.45.105
+  User ubuntu
+
+## office-proxmox-vm ##
+
+Host office-proxmox-vm-01 op1
+  Hostname 192.168.45.201
+  User ubuntu
+
+Host office-proxmox-vm-02 op2
+  Hostname 192.168.45.202
+  User ubuntu
+
+Host office-proxmox-vm-03 op3
+  Hostname 192.168.45.203
+  User ubuntu
+
+Host office-proxmox-vm-04 op4
+  Hostname 192.168.45.204
+  User ubuntu
+
+Host office-proxmox-vm-05 op5
+  Hostname 192.168.45.205
+  User ubuntu
+
+Host office-proxmox-vm-06 op6
+  Hostname 192.168.45.206
+  User ubuntu
+
+## feracity-runner ##
+
+Host fr1
+  Hostname 192.168.46.101
+  User research
+
+Host fr2
+  Hostname 192.168.46.102
+  User research
+
+Host fr3
+  Hostname 192.168.46.103
+  User research
+
+Host fr4
+  Hostname 192.168.46.104
+  User ubuntu
+
+Host fr5
+  Hostname 192.168.46.105
+  User ubuntu
+
+Host fr6
+  Hostname 192.168.46.106
+  User research
+
+Host fr7
+  Hostname 192.168.46.107
+  User ubuntu
+
+Host fr8
+  Hostname 192.168.46.108
+  User ubuntu
+
+Host fr9
+  Hostname 192.168.46.109
+  User ubuntu
+
+Host fr10
+  Hostname 192.168.46.110
+  User ubuntu
+
+Host fr11
+  Hostname 192.168.46.111
+  User ubuntu
+
+Host fr12
+  Hostname 192.168.46.112
+  User research
+
+##### Physical #####
+
+## Office Tegra ##
+
+Host office-tegra-01 ot1
+  Hostname 192.168.45.51
+  User ubuntu
+
+Host office-tegra-02 ot2
+  Hostname 192.168.45.52
+  User ubuntu
+
+Host office-tegra-03 ot3
+  Hostname 192.168.45.53
+  User ubuntu
+
+Host office-tegra-04 ot4
+  Hostname 192.168.45.54
+  User ubuntu
+
+Host office-tegra-05 ot5
+  Hostname 192.168.45.55
+  User ubuntu
+
+Host office-tegra-06 ot6
+  Hostname 192.168.45.56
+  User ubuntu
+
+## Proxmox ##
+
+Host proxmox1 p1
+  Hostname 192.168.40.101
+  User root
+
+Host proxmox2 p2
+  Hostname 192.168.40.102
+  User root
+
+Host proxmox3 p3
+  Hostname 192.168.40.103
+  User root
+
+Host proxmox4 p4
+  Hostname 192.168.40.104
+  User root
+
+Host proxmox5 p5
+  Hostname 192.168.40.105
+  User root
+
+Host proxmox6 p6
+  Hostname 192.168.40.106
+  User root
+
+Host proxmox7 p7
+  Hostname 192.168.40.107
+  User root
+
+Host proxmox8 p8
+  Hostname 192.168.40.108
+  User root
+
+Host proxmox9 p9
+  Hostname 192.168.40.109
+  User root
+
+Host proxmox10 p10
+  Hostname 192.168.40.110
+  User root
+
+Host proxmox11 p11
+  Hostname 192.168.40.111
+  User root
+
+Host proxmox12 p12
+  Hostname 192.168.40.112
+  User root
+
+Host proxmox13 p13
+  Hostname 192.168.40.113
+  User root
+
+Host proxmox14 p14
+  Hostname 192.168.40.114
+  User root
+
+Host proxmox15 p15
+  Hostname 192.168.40.115
+  User root
+
+Host proxmox16 p16
+  Hostname 192.168.40.116
+  User root
+
+Host proxmox17 p17
+  Hostname 192.168.40.117
+  User root
+
+Host proxmox18 p18
+  Hostname 192.168.40.118
+  User root
+
+Host proxmox19 p19
+  Hostname 192.168.40.119
+  User root
+
+Host proxmox20 p20
+  Hostname 192.168.40.120
+  User root
+
+Host proxmox21 p21
+  Hostname 192.168.40.121
+  User root
+
+## Defaults ##
+
+Host *
+  ServerAliveInterval 60
+
